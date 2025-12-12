@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="post.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <title>Shop</title>
+</head>
+
+
+<body>
+    
+    <header>
+         <nav class="container-fluid navbar  navbar-bg shadow">
+
+            <div class="container-fluid cont-bg  d-flex">
+                <div class="container-fluid  d-flex justify-content-md-between justify-content-lg-between align-items-center">
+
+                    <!-- <div class="d-none col-lg-5 d-md-flex col-md-6 d-lg-flex  align-items-center gap-4">
+                        <div class="input-group d-none d-md-flex d-lg-flex w-50">
+
+                            <input type="text" class="form-control " placeholder="Search books ..."
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                        </div>
+                    </div> -->
+
+                    <div class="img col col-lg-3 col-md-3 d-flex   align-items-center">
+
+                        <div class=" img d-flex align-items-center">
+                            <p class="h2 fw-bold">BOOTIN</p>
+                        </div>
+
+                    </div>
+
+                    <div class=" container-fluid w-100 d-none d-sm-flex d-flex justify-content-center ">
+                        <div>
+                            <ul class="liens d-flex gap-4 align-items-center justify-content-center list-unstyled">
+                                <a href="index.html" class="text-decoration-none text-dark lienh">Home </a>
+                                <a href="shop.html" class="text-decoration-none text-dark liensh">Shop</a>
+                                <a href="post.html" class="text-decoration-none text-dark post lienp">Post </a>
+                                <a href="contact.html" class="text-decoration-none text-dark lienc">contact</a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-3 navbar-toggler d-flex d-sm-none justify-content-end" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </div>
+                    <div
+                        class="d-none col-lg-3 col-md-3  d-sm-flex d-flex gap-4 align-items-center justify-content-end">
+                        <div class="ico gap-2 ml-3 d-flex">
+                            <div class="p-2 border-end pe-2">
+                                <i class="bi bi-heart"></i>
+                                <div class="badge fs-7">3</div>
+                            </div>
+                            <div class="p-2 border-end">
+                                <i class="bi bi-bookmark"></i>
+                                <div class="badge1 fs-7">0</div>
+                            </div>
+                            <div class="p-2">
+                                <i class="bi bi-person-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+
+                <div class="container offcanvas  toggle " id="offcanvas">
+                    <div class="offcanvas-body">
+                        <div class="navbar-links" id="nav-links">
+                            <ul class="liens d-flex flex-column p-4 border-bottom gap-4  list-unstyled">
+                                <a href="index.html" class=" text-dark fs-5 lienh">Home </a>
+                                <a href="shop.html" class="text-decoration-none text-dark fs-5 shop liensh">Shop </a>
+                                <a href="post.html" class="text-decoration-none text-dark fs-5 lienp">Post </a>
+                                <a href="contact.html" class="text-decoration-none text-dark fs-5 lienc">Contact </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            
+
+        </nav>
+    </header>
+
+    <main class="main ">
+
+        <div class="bg-img text-white mb-3 position-relative d-flex justify-content-center align-items-center">
+
+            <div class="position-absolute fw-bold"><h1>Post</h1></div>
+
+            <div><img src="./assets/bg.jpg" alt="" class=""></div>
+        </div>
+
+        <div class="container-fluid pt-2">
+            <div class="row  g-5">
+                <div class="ms-4  col-11 col-md-4 col-lg-4">
+                    <div class="col-12 col-lg-5 d-md-flex col-md-6 d-lg-flex  align-items-center gap-4" >
+                        <div class="input-group  d-md-flex d-lg-flex  ">
+
+                            <input type="text" class="form-control border-bottom" placeholder="Search books ..."
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            <span class="input-group-text un" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="  row g-3 gap-3 d-flex ">
+
+                        <div class=" col-12 col-md-12 col-lg-12  d-flex  flex-column bg-livr rounded-2 pb-3">
+                            <div class="mt-4">
+                                <div>
+                                    <p class="fw-bold m-0 fs-5">Catégories</p>
+                                </div>
+                                <hr>
+                                <div class=" ">
+                                    <ul class="d-flex flex-column gap-3 p-0">
+                                        <a href="" class="text-decoration-none text-dark fs-7">Fashion (7)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Life Style (7)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Men (7)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">News (12)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Travel (7)</a>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-12 col-lg-12">
+                                <div>
+                                    <p class="fw-bold m-0 fs-5">Resents Posts</p>
+                                </div>
+                                <hr>
+                                <div class="equal-card">
+
+                                    <!-- item 1 -->
+                                    <div class="d-flex gap-2 blog m-2">
+                                        <div><img src="./assets/blog.jpg" alt="" class="img-fluid" style="width:90px; height:90px;"></div>
+                                        <div>
+                                            <p class="fs-7 fo m-1">May 30, 2018 / Life Style</p>
+                                            <p class="m-1 fw-bold">Book News</p>
+                                            <p class="m-1 fw-bold">Missed this week</p>
+                                            <p class="fs-7">By Admin</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- item 2 -->
+                                    <div class="d-flex gap-2 blog m-2">
+                                        <div><img src="./assets/blog2.jpg" alt="" class="img-fluid" style="width:90px; height:90px;"></div>
+                                        <div>
+                                            <p class="fs-7 fo m-1">May 30, 2018 / Life Style</p>
+                                            <p class="m-1 fw-bold">Book News</p>
+                                            <p class="m-1 fw-bold">Missed this week</p>
+                                            <p class="fs-7">By Admin</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- item 3 -->
+                                    <div class="d-flex gap-2 blog m-2">
+                                        <div><img src="./assets/blog3.jpg" alt="" class="img-fluid" style="width:90px; height:90px;"></div>
+                                        <div>
+                                            <p class="fs-7 fo m-1">May 30, 2018 / Life Style</p>
+                                            <p class="m-1 fw-bold">Book News</p>
+                                            <p class="m-1 fw-bold">Missed this week</p>
+                                            <p class="fs-7">By Admin</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="fw-bold m-0 fs-5">Tags</p>
+                            </div>
+                            <hr>
+                            <div class="row g-2 gap-3 d-flex  mt-3">
+                                
+                                
+                                <div class="col-6 col-md-3 col-lg-3 border border-dark  ">
+                                    <div class="ton d-flex gap-3 ">
+                                        <div class=" d-flex ">
+                                            <p class="m-0">Classic</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-5 col-md-4 col-lg-3 border border-dark ">
+                                    <div class="ton d-flex gap-3">
+                                        <div class="">
+                                            <p class="m-0">Horror</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-3 border border-dark ">
+                                    <div class="ton d-flex gap-3">
+                                        <div class="">
+                                            <p class="m-0">Kids</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-5 col-md-5 col-lg-3 border border-dark ">
+                                    <div class="ton d-flex gap-3">
+                                        <div class="">
+                                            <p class="m-0">Men</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6 col-md-5 col-lg-3 border border-dark">
+                                    <div class="d-flex">
+                                        <div class="">
+                                            <p class="m-0">Trend</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-5 col-md-5 col-lg-3 border border-dark">
+                                    <div class="d-flex">
+                                        <div class="">
+                                            <p class="m-0">Women</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md-12 col-lg-12  mt-3">
+                                <div class="mt-5 w-lg-50 w-md-100 w-100 sale">
+                                    <img src="./assets/Image6.jpg" alt="" >
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        <div
+                            class=" col-5 col-md-5 col-lg-12 d-flex ">
+                           
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-7 col-lg-7 ">
+        
+                    <div class="row g-3  d-flex justify-content-center align-items-center mt-">
+                    
+                        <div class="col-11 col-md-3 col-lg-3   w-100">
+                            <div class="li d-flex justify-content-center bas mb-2"><img src="./assets/post.jpg" alt="" class="w-100">
+                            </div>
+                            
+                        </div>
+
+                        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum quos non .....</p></div>
+                    </div>  
+
+                    <div class="row g-3 d-flex mt-2 justify-content-center align-items-center mb-3">
+
+                        <div class="col-11 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="img-box ">
+                                <img src="./assets/post.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-11 col-md-6 col-lg-4 ">
+                            <div class="img-box ">
+                                <img src="./assets/post2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-11 col-md-6 col-lg-4 ">
+                            <div class="img-box ">
+                                <img src="./assets/post3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-11 col-md-6 col-lg-4 d-lg-none d-md-block d-none ">
+                            <div class="img-box ">
+                                <!-- <img src="./assets/post3.jpg" alt=""> -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-11 col-md-12 col-lg-12 border-bottom border-top border-dark p-3 mb-3">
+                        <div class=" d-flex justify-content-between">
+                            <div><p class="fo m-0 fs-7">Previous article</p></div>
+                            <div><p class="fo m-0 fs-7">Next article</p></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div><p class=" m-0 fs-7">Post format audio blogs</p></div>
+                            <div><p class=" m-0 fs-7">Lorem ipsum dolor sit amet.</p></div>
+                        </div>
+                    </div>
+
+                    <div class="row g-3  d-flex mt-4">
+                    
+                        <div class=""><p class="m-0 fw-bold fs-5">Leave a Replay</p></div>
+                        <div><p class="m-0 fs-7">Your email adress will not be published</p></div>
+                        <div class="col-11 col-md-12 col-lg-12">
+                            <div class="li d-flex ">
+                               <textarea name="" id="" placeholder="Comment" class="w-100 bg-in p-2"></textarea>
+                            </div>
+                            
+                        </div>
+                        <div class="row g-3 mt-3 mb-3">
+                            <div class="col-11 col-md-4 col-lg-4 ">
+                                <div class="li d-flex ">
+                                <input type="text" placeholder="Name" class="w-100 bg-in p-2">
+                                </div>
+                                
+                            </div>
+                            <div class="col-11 col-md-4 col-lg-4">
+                                <div class="li d-flex ">
+                                <input type="text" placeholder="Email" class="w-100 bg-in p-2">
+                                </div>
+                                
+                            </div>
+                            <div class="col-11 col-md-4 col-lg-4">
+                                <div class="li d-flex ">
+                                <input type="text" placeholder="Website" class="w-100 bg-in p-2">
+                                </div>
+                                
+                            </div>
+
+                            <div class="mt-3"><button class="but3 fs-7 p-2">Post comment</button></div>
+                            
+                        </div>
+                        
+                    </div>  
+                </div>
+            </div>
+
+            
+        </div>
+
+    </main>
+
+    <footer class="shadow bg-in ">
+        <div class="container-fluid footer-content p-4 ">
+
+
+            <div class="row ">
+                <div class="col-lg-6 col-md-9 gap-5 d-lg-flex d-md-flex">
+
+
+                    <div class="col-lg-5 col-md-8">
+                        <div class="">
+                            <div>
+                                <p class="fw-bold">Contact-us</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <div>
+                                    <div class="loc d-flex gap-3">
+                                        <div><i class="bi bi-geo-alt-fill"></i></div>
+                                        <div class="">
+                                            <div>
+                                                <p class="fs-7"><span class="">1998 wall street 707,</span> <br>
+                                                    Washington DC, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mails d-flex gap-3">
+                                        <div><i class="bi bi-envelope-fill"></i></div>
+                                        <div class="">
+                                            <div>
+                                                <p class="fs-7"><span class="">Bookmart@domain.com</span> <br>
+                                                    support@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tels d-flex gap-3">
+                                        <div><i class="bi bi-telephone-fill"></i></i></div>
+                                        <div class="">
+                                            <div>
+                                                <p class="fs-7"><span class="">(84) 0123 456 789</span> <br>(84) 0123
+                                                    456 789</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 ">
+                        <div>
+                            <p class="fw-bold">Information</p>
+                        </div>
+                        <hr>
+                        <div class=" ">
+                            <ul class="d-flex flex-column gap-2 p-0">
+                                <a href="" class="text-decoration-none text-dark">Contact-us</a>
+                                <a href="" class="text-decoration-none text-dark">Site Map</a>
+                                <a href="" class="text-decoration-none text-dark">Privacy policy</a>
+                                <a href="" class="text-decoration-none text-dark">About-us</a>
+                                <a href="" class="text-decoration-none text-dark">Costomer service</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="col-lg-5 col-md-12 justify-content-md-between gap-5 d-lg-flex d-md-flex  justify-content-lg-between justify-content-md-between">
+                    <div class="">
+                        <div>
+                            <p class="fw-bold">My Account</p>
+                        </div>
+                        <hr>
+                        <div class=" ">
+                            <ul class="d-flex flex-column gap-2 p-0">
+                                <a href="" class="text-decoration-none text-dark">Sign In</a>
+                                <a href="" class="text-decoration-none text-dark">View cart</a>
+                                <a href="" class="text-decoration-none text-dark">My wishlist</a>
+                                <a href="" class="text-decoration-none text-dark">Track My Order</a>
+                                <a href="" class="text-decoration-none text-dark">help</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div>
+                            <h5>Instagram</h5>
+                        </div>
+                        <hr>
+
+                        <div class="d-flex mb-2 ">
+                            <div class="ins d-flex gap-3 border me-3">
+                                <img src="./assets/ins1.png" alt="">
+                            </div>
+
+                            <div class="ins d-flex gap-3 me-3">
+                                <img src="./assets/ins2.png" alt="">
+                            </div>
+
+                            <div class="ins d-flex gap-3">
+                                <img src="./assets/ins3.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <p class="fo fs-7">7 Days 1 week - 8AM to 5PM</p>
+                        </div>
+
+                        <div class="d-flex gap-4 align-items-center">
+                            <div><i class="bi bi-facebook fs-5"></i></div>
+                            <div><i class="bi bi-twitter fs-5"></i></div>
+                            <div><i class="bi bi-instagram fs-5"></i></div>
+                            <div><i class="bi bi-pinterest fs-5"></i></div>
+                            <div><i class="bi bi-linkedin fs-5"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

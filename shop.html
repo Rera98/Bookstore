@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="shop.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <title>Shop</title>
+</head>
+
+
+<body>
+    
+    <header>
+         <nav class="container-fluid navbar  navbar-bg shadow">
+
+            <div class="container-fluid cont-bg  d-flex">
+                <div class="container-fluid  d-flex justify-content-md-between justify-content-lg-between align-items-center">
+
+                    <!-- <div class="d-none col-lg-5 d-md-flex col-md-6 d-lg-flex  align-items-center gap-4">
+                        <div class="input-group d-none d-md-flex d-lg-flex w-50">
+
+                            <input type="text" class="form-control " placeholder="Search books ..."
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                        </div>
+                    </div> -->
+
+                    <div class="img col col-lg-3 col-md-3 d-flex   align-items-center">
+
+                        <div class=" img d-flex align-items-center">
+                            <p class="h2 fw-bold">BOOTIN</p>
+                        </div>
+
+                    </div>
+
+                    <div class=" container-fluid w-100 d-none d-sm-flex d-flex justify-content-center ">
+                        <div>
+                            <ul class="liens d-flex gap-4 align-items-center justify-content-center list-unstyled">
+                                <a href="index.html" class="text-decoration-none text-dark lienh">Home </a>
+                                <a href="shop.html" class="text-decoration-none text-dark shop liensh">Shop</a>
+                                <a href="post.html" class="text-decoration-none text-dark lienp">Post </a>
+                                <a href="contact.html" class="text-decoration-none text-dark lienc">contact</a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-3 navbar-toggler d-flex d-sm-none justify-content-end" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </div>
+                    <div
+                        class="d-none col-lg-3 col-md-3  d-sm-flex d-flex gap-4 align-items-center justify-content-end">
+                        <div class="ico gap-2 ml-3 d-flex">
+                            <div class="p-2 border-end pe-2">
+                                <i class="bi bi-heart"></i>
+                                <div class="badge fs-7">3</div>
+                            </div>
+                            <div class="p-2 border-end">
+                                <i class="bi bi-bookmark"></i>
+                                <div class="badge1 fs-7">0</div>
+                            </div>
+                            <div class="p-2">
+                                <i class="bi bi-person-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+
+                <div class="container offcanvas  toggle " id="offcanvas">
+                    <div class="offcanvas-body">
+                        <div class="navbar-links" id="nav-links">
+                            <ul class="liens d-flex flex-column p-4 border-bottom gap-4  list-unstyled">
+                                <a href="index.html" class=" text-dark fs-5 lienh">Home </a>
+                                <a href="shop.html" class="text-decoration-none text-dark fs-5 shop liensh">Shop </a>
+                                <a href="post.html" class="text-decoration-none text-dark fs-5 lienp">Post </a>
+                                <a href="contact.html" class="text-decoration-none text-dark fs-5 lienc">Contact </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            
+
+        </nav>
+    </header>
+
+    <main class="main ">
+
+        <div class="bg-img text-white mb-3 position-relative d-flex justify-content-center align-items-center">
+
+            <div class="position-absolute fw-bold"><h1>Shop</h1></div>
+
+            <div><img src="./assets/bg.jpg" alt="" class=""></div>
+        </div>
+
+        <div class="container-fluid pt-2 mb-3">
+            <div class="row flex-column-reverse g-5">
+                <div class="ms-4  col-11 col-md-12 col-lg-3">
+                    <div class="col-lg-5 d-md-flex col-md-6 d-lg-flex  align-items-center gap-4 w-100" >
+                        <div class="input-group d-md-flex d-lg-flex  w-100 ">
+
+                            <input type="text" class="form-control shadow border-bottom" placeholder="Search books ..."
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                            <span class="input-group-text un" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="  row g-3 gap-3 d-flex ">
+
+                        <div class=" col-12 col-md-5 col-lg-12  d-flex  flex-column  ">
+                           
+                            <div class="mt-4">
+                                <div>
+                                    <p class="fw-bold m-0 fs-5">Catégories</p>
+                                </div>
+                                <hr>
+                                <div class=" ">
+                                    <ul class="d-flex flex-column gap-3 p-0">
+                                        <a href="" class="text-decoration-none text-dark fs-7">Buisness (3)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Classic (7)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Drama (2)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">For Kids (13)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Horror (16)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Loved (1)</a>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 ">
+                                <div>
+                                    <p class="fw-bold m-0 fs-5">Price</p>
+                                </div>
+                                <hr>
+                                <div class=" w-100">
+                                    <input type="range" class="w-100">
+                                    <div class="d-flex justify-content-between fs-7">
+                                        <p class="m-0">2 400F CFA</p>
+                                        <p  class="m-0">23 400F CFA</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <div>
+                                    <p class="fw-bold m-0 fs-5">Author</p>
+                                </div>
+                                <hr>
+                                <div class=" ">
+                                   
+                                    <div class="d-flex gap-2 align-items-center mb-2"><input type="checkbox" name="" id=""> <p class="m-0 fs-7">Anna Hilton (3)</p></div>
+
+                                    <div class="d-flex gap-2 align-items-center mb-2"><input type="checkbox" name="" id=""> <p class="m-0 fs-7">Anna Hiltons (4)</p></div>
+
+                                    <div class="d-flex gap-2 align-items-center mb-2"><input type="checkbox" name="" id=""> <p class="m-0 fs-7">Coco Simon (2)</p></div>
+
+                                    <div class="d-flex gap-2 align-items-center mb-2"><input type="checkbox" name="" id=""> <p class="m-0 fs-7">Nicolas Sumpir (3)</p></div>
+
+                                    <div class="d-flex gap-2 align-items-center mb-2"><input type="checkbox" name="" id=""> <p class="m-0 fs-7">Sabela Hupter (7)</p></div>
+
+                                    <div class="d-flex gap-2 align-items-center mb-2"><input type="checkbox" name="" id=""> <p class="m-0 fs-7">Susan Merrlin (4)</p></div>
+                                    
+                                    
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <div>
+                                    <p class="fw-bold m-0 fs-5">Tags</p>
+                                </div>
+                                <hr>
+                                <div class=" ">
+                                    <ul class="d-flex flex-column gap-3 p-0">
+                                        <a href="" class="text-decoration-none text-dark fs-7">Buisness (3)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Classic (7)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Drama (2)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">For Kids (13)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Horror (16)</a>
+                                        <a href="" class="text-decoration-none text-dark fs-7">Loved (1)</a>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row g-2 gap-3 d-flex  mt-3">
+                                <div class="col-6 col-md-3 col-lg-3 border border-dark  ">
+                                    <div class="ton d-flex gap-3 ">
+                                        <div class=" d-flex ">
+                                            <p class="m-0">Classic</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-5 col-md-4 col-lg-3 border border-dark ">
+                                    <div class="ton d-flex gap-3">
+                                        <div class="">
+                                            <p class="m-0">Horror</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-3 border border-dark ">
+                                    <div class="ton d-flex gap-3">
+                                        <div class="">
+                                            <p class="m-0">Kids</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-5 col-md-5 col-lg-3 border border-dark ">
+                                    <div class="ton d-flex gap-3">
+                                        <div class="">
+                                            <p class="m-0">Men</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6 col-md-5 col-lg-3 border border-dark">
+                                    <div class="d-flex">
+                                        <div class="">
+                                            <p class="m-0">Trend</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-5 col-md-5 col-lg-3 border border-dark">
+                                    <div class="d-flex">
+                                        <div class="">
+                                            <p class="m-0">Women</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-8 border-bottom border-dark mb-3">
+        
+                    <div class="row g-3  d-flex justify-content-center align-items-center mt-4">
+                    
+                        <div class="col-11 col-md-3 col-lg-3  p-3 ">
+                            <div class="li d-flex justify-content-center bas mb-2"><img src="./assets/liv1.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-5 fw-bold">The Book Mart</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">Classic Litterature</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7"> <span class="fo">19 400F CFA</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-11 col-md-6 col-lg-3  d-none d-lg-block p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/liv2.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 2</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-6 col-lg-3 d-none d-lg-block  p-3">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/liv3.webp" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 3</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/livre1.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/livre6.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/livre3.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/livre4.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/livre5.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/livre6.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/spec1.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/liv1.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-11 col-md-3 col-lg-3 p-3 ">
+                            <div class="li d-flex justify-content-center bas"><img src="./assets/liv1.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <div>
+                                    <p class="fs-7 fw-bold">Special Product 4</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">By author Name</p>
+                                </div>
+                                <div>
+                                    <p class="fs-7">17 500F CFA <span class="fo">20% off</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center gap-5 mb-5">
+            <div class="border border-dark p-3  un"><p class="m-0">1</p></div>
+            <div class="border border-dark p-3 uno"><p class="m-0">2</p></div>
+            <div class="border border-dark p-3 uno"><p class="m-0">3</p></div>
+        </div>
+    </main>
+
+    <footer class="shadow bg-in">
+        <div class="container-fluid footer-content p-4 ">
+
+
+            <div class="row ">
+                <div class="col-lg-6 col-md-9 gap-5 d-lg-flex d-md-flex">
+
+
+                    <div class="col-lg-5 col-md-8">
+                        <div class="">
+                            <div>
+                                <p class="fw-bold">Contact-us</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <div>
+                                    <div class="loc d-flex gap-3">
+                                        <div><i class="bi bi-geo-alt-fill"></i></div>
+                                        <div class="">
+                                            <div>
+                                                <p class="fs-7"><span class="">1998 wall street 707,</span> <br>
+                                                    Washington DC, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mails d-flex gap-3">
+                                        <div><i class="bi bi-envelope-fill"></i></div>
+                                        <div class="">
+                                            <div>
+                                                <p class="fs-7"><span class="">Bookmart@domain.com</span> <br>
+                                                    support@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tels d-flex gap-3">
+                                        <div><i class="bi bi-telephone-fill"></i></i></div>
+                                        <div class="">
+                                            <div>
+                                                <p class="fs-7"><span class="">(84) 0123 456 789</span> <br>(84) 0123
+                                                    456 789</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 ">
+                        <div>
+                            <p class="fw-bold">Information</p>
+                        </div>
+                        <hr>
+                        <div class=" ">
+                            <ul class="d-flex flex-column gap-2 p-0">
+                                <a href="" class="text-decoration-none text-dark">Contact-us</a>
+                                <a href="" class="text-decoration-none text-dark">Site Map</a>
+                                <a href="" class="text-decoration-none text-dark">Privacy policy</a>
+                                <a href="" class="text-decoration-none text-dark">About-us</a>
+                                <a href="" class="text-decoration-none text-dark">Costomer service</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="col-lg-5 col-md-9 justify-content-md-between gap-5 d-lg-flex d-md-flex  justify-content-lg-between">
+                    <div class="">
+                        <div>
+                            <p class="fw-bold">My Account</p>
+                        </div>
+                        <hr>
+                        <div class=" ">
+                            <ul class="d-flex flex-column gap-2 p-0">
+                                <a href="" class="text-decoration-none text-dark">Sign In</a>
+                                <a href="" class="text-decoration-none text-dark">View cart</a>
+                                <a href="" class="text-decoration-none text-dark">My wishlist</a>
+                                <a href="" class="text-decoration-none text-dark">Track My Order</a>
+                                <a href="" class="text-decoration-none text-dark">help</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div>
+                            <h5>Instagram</h5>
+                        </div>
+                        <hr>
+
+                        <div class="d-flex mb-2 ">
+                            <div class="ins d-flex gap-3 border me-3">
+                                <img src="./assets/ins1.png" alt="">
+                            </div>
+
+                            <div class="ins d-flex gap-3 me-3">
+                                <img src="./assets/ins2.png" alt="">
+                            </div>
+
+                            <div class="ins d-flex gap-3">
+                                <img src="./assets/ins3.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <p class="fo fs-7">7 Days 1 week - 8AM to 5PM</p>
+                        </div>
+
+                        <div class="d-flex gap-4 align-items-center">
+                            <div><i class="bi bi-facebook fs-5"></i></div>
+                            <div><i class="bi bi-twitter fs-5"></i></div>
+                            <div><i class="bi bi-instagram fs-5"></i></div>
+                            <div><i class="bi bi-pinterest fs-5"></i></div>
+                            <div><i class="bi bi-linkedin fs-5"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
