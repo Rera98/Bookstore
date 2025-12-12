@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 element.style {
     overflow:hidden;
@@ -20,8 +20,10 @@ element.style {
    border: none;
 }
 .offcanvas-backdrop.show {
-    opacity: 1;
+    opacity: 0;
     width: auto;
+     width: 350px;
+    height: 250px;
 }
 .offcanvas{
     position: absolute;
