@@ -4,10 +4,6 @@
     box-sizing: border-box;
     /* overflow-x: hidden; */
 }
-element.style {
-    overflow:hidden;
-    padding-right: 0 !important;
-}
 .fs-7 {
   font-size: 0.80rem !important;
 }
