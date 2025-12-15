@@ -49,6 +49,17 @@ hr{
 .fo{
     color: #ff6468;
 }
+.cla:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+.cla:hover .ico{
+    background-color: #ff6468;
+    color: #fff;
+}
+.ico:hover{
+    background-color: #ff6468;
+}
 .fo1{
     background-color: #F2C1C2;
 }
@@ -191,4 +202,5 @@ hr{
 /* lg ≥ 992px */
 @media (min-width: 992px) {
   .w-lg-25 { width: 25% !important; }
+  .w-lg-100 { width: 100% !important;}
 }
