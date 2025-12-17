@@ -105,4 +105,27 @@ hr{
     border: none;
     background-color: #f3f4f6;
 }
+.bg-img {
+    max-width: 100%;
+    min-width: 100%;
+}
+main {
+    margin-top: 60px;
+}
+.hov:hover{
+    cursor: pointer;
+    background-color: #ff6468;
+    color: #fff;
+}
+
+
+@media (max-width: 425px) {
+    main {
+        margin-top: 50px;
+    }
+    .hero{
+        height: 200px;
+    }
+
+}
 

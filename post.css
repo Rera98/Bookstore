@@ -129,6 +129,31 @@ hr{
     height: 100%;
 }
 
+.bg-img {
+    max-width: 100%;
+    min-width: 100%;
+}
+main {
+    margin-top: 60px;
+}
+
+.hov:hover{
+    cursor: pointer;
+    background-color: #ff6468;
+    color: #fff;
+}
+
+
+@media (max-width: 425px) {
+    main {
+        margin-top: 50px;
+    }
+    .hero{
+        height: 200px;
+    }
+
+}
+
 @media (min-width: 320px) {
   .w-sm-75 { width: 75% !important; }
   .w-sm-100 { width: 100 !important;}
